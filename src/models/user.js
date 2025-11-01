@@ -3,22 +3,22 @@ const { Schema } = mongoose;
 
 const userSchema = new Schema({
   firstName: {
-    typeof: String,
+    type: String,
   },
   lastName: {
-    typeof: String,
+    type: String,
   },
   emailId: {
-    typeof: String,
+    type: String,
   },
   password: {
-    typeof: String,
+    type: String,
   },
   age: {
-    typeof: Number,
+    type: Number,
   },
   gender: {
-    typeof: String,
+    type: String,
   },
 });
 
